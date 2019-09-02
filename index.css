@@ -1,0 +1,67 @@
+body * {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Sans-Serif;
+    font-size: 1.2em;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h4 {
+    margin: 1rem 0;
+  }
+
+.css-search{
+    min-width: 325px;
+    padding: .2em .5em;
+    margin: .25em 0;
+}
+#find-btn{
+    border:3px solid black;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input[type=text]{
+    border:1px solid darkgrey;
+    outline-color: 3px solid black;
+    font-size: 1rem;
+}
+#search-label{
+    font-weight: bold;
+}
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+.error {
+    color: red;
+}
+
+.user {
+    color: blue;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+  }
+ul{
+    margin-top: -10px;
+}
+.result-item {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  border-radius: 4px;
+}
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
